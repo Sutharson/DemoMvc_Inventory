@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-netcore-FE586822-D2E5-4D23-BE70-C9D2856D4FF5</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20180623203458_initialdb.cs" />
+    <Compile Remove="Migrations\20180623203458_initialdb.Designer.cs" />
+    <Compile Remove="Migrations\20200811054102_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200811054102_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20201106155001_InitialCreate.cs" />
+    <Compile Remove="Migrations\20201106155001_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20201106175132_InitialCreate.cs" />
+    <Compile Remove="Migrations\20201106175132_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20201106180210_InitialCreate.cs" />
+    <Compile Remove="Migrations\20201106180210_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20201106223906_InitialCreate.cs" />
+    <Compile Remove="Migrations\20201106223906_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20201106225238_InitialCreate.cs" />
+    <Compile Remove="Migrations\20201106225238_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20201106230051_InitialCreate.cs" />
+    <Compile Remove="Migrations\20201106230051_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20201107150519_InitialCreate.cs" />
+    <Compile Remove="Migrations\20201107150519_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20201107151759_InitialCreate.cs" />
+    <Compile Remove="Migrations\20201107151759_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20201107154355_InitialCreate.cs" />
+    <Compile Remove="Migrations\20201107154355_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20201107161855_InitialCreate.cs" />
+    <Compile Remove="Migrations\20201107161855_InitialCreate.Designer.cs" />
+  </ItemGroup>
+
+
+  <ItemGroup>   
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.0" />
+    <PackageReference Include="Sendgrid" Version="9.9.0" />
+  </ItemGroup>  
+
+  <ItemGroup>
+    <Folder Include="wwwroot\uploads\" />
+  </ItemGroup>
+
+</Project>
